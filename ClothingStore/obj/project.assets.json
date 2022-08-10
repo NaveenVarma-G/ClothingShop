@@ -9666,11 +9666,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\labs\\asp\\ClothingStore\\ClothingStore.csproj",
+      "projectUniqueName": "D:\\labs\\ClothingShop\\ClothingStore\\ClothingStore.csproj",
       "projectName": "ClothingStore",
-      "projectPath": "D:\\labs\\asp\\ClothingStore\\ClothingStore.csproj",
+      "projectPath": "D:\\labs\\ClothingShop\\ClothingStore\\ClothingStore.csproj",
       "packagesPath": "C:\\Users\\varma\\.nuget\\packages\\",
-      "outputPath": "D:\\labs\\asp\\ClothingStore\\obj\\",
+      "outputPath": "D:\\labs\\ClothingShop\\ClothingStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\varma\\AppData\\Roaming\\NuGet\\NuGet.Config",

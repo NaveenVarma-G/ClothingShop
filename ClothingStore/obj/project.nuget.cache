@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RSmiuSP7T+eYFIP3y5jljTWClN4fuB+x7c197m14tl2FW45bFMl2/kkfuK6OPmNh5g3Gpi52yTqdpDOGHuuHUw==",
+  "dgSpecHash": "qzzE6C53W1Tw9GqqsWGPdszqrIaEaaB5D5UzhZF5K7xebe7rSRdvLqdSYBvoW7durDpA+5yMOPJexhzFbRCeaw==",
   "success": true,
-  "projectFilePath": "D:\\labs\\asp\\ClothingStore\\ClothingStore.csproj",
+  "projectFilePath": "D:\\labs\\ClothingShop\\ClothingStore\\ClothingStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\varma\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\varma\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
