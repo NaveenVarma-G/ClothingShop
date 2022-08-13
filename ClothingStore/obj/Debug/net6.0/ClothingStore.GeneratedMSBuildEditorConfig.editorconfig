@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\labs\ClothingShop\ClothingStore
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/labs/ClothingShop/ClothingStore/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/labs/ClothingShop/ClothingStore/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/labs/ClothingShop/ClothingStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -43,6 +51,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Catalogue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcQ2F0YWxvZ3VlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -61,6 +77,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/labs/ClothingShop/ClothingStore/Views/ProductInventories/Create.cshtml]

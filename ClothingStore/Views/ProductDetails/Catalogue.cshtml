@@ -1,0 +1,25 @@
+﻿@model IEnumerable<ClothingStore.DataAccess.ProductDetail>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<main>
+    <link rel="stylesheet" href="~/css/catalogue.css" asp-append-version="true" />
+        <div class="mainbox">
+       <!--     <div class="filter-section">
+                <div class="filter">
+                </div>
+            </div>-->
+            <div class="products-list">
+                <div class="column" id="product_listing">
+                    @foreach (var item in Model) {
+
+                    String imgPath = "/images/" + item.ProductId + ".jpg";
+
+                    <div class='product-column'><a asp-action="Product" asp-route-id="@item.ProductId"><img src='@imgPath' alt='dress' onclick='itemSelected("+ data[i].id+")'></a> <p>$@item.Price</p></div>
+                    }
+                </div>
+            </div>
+        </div>
+    </main>

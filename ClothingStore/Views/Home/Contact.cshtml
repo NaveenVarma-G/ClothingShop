@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+ <main>
+     <link rel="stylesheet" href="~/css/contact.css" asp-append-version="true" />
+        <div class="form-container">
+            <div class="row3-2">
+                <img src="~/images/contact.jpg" alt="Contact us">
+
+                <div class="box-grey">
+                    <div class="Contact-form">
+                        <h3>Please fill out the form below!</h3>
+                        <form name="contactform" onsubmit="return validateForm()" method="post">
+                            <div class="grid-container">
+                                <div class="block grid-item">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="block grid-item">
+                                    <input type="text" id='fName' name="first_name" class="simpleinput"
+                                        oninput="firstNameEvent()" placeholder="Enter Your First Name" />
+                                    <br><span id="fNameError"></span><br>
+                                </div>
+
+                                <div class="block grid-item">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                                <div class="block grid-item">
+                                    <input type="text" id='lName' name="last_name" class="simpleinput"
+                                        oninput="lastNameEvent()" placeholder="Enter Your Last Name" />
+                                    <br><span id="lNameError"></span><br>
+                                </div>
+
+
+                                <div class="block grid-item">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="block grid-item">
+                                    <input type="text" id='email' name="email" class="simpleinput"
+                                        oninput="emailEvent()" placeholder="Enter Your Email" />
+                                    <br><span id="emailError"></span><br>
+                                </div>
+
+                                <div class="block grid-item">
+                                    <label for="message">Message</label>
+                                </div>
+                                <div class="block grid-item">
+                                    <textarea id="message" name="message" class="largeinput" oninput="messageEvent()"
+                                        placeholder="Enter your message"></textarea>
+                                    <br><span id="messageError"></span><br>
+                                </div>
+                            </div>
+                            <input class="btn-submit" type="submit" value="Submit" />
+                        </form>
+                    </div>
+                </div>
+
+                <p class="center-text">
+                    We look forward to reading your message and may reply as soon as possible.
+                </p>
+                <div class="box-border">
+                    <p>
+                        To speak with a Customer Service Representative<br>
+                        <b>Phone: (123) 456-7890</b><br>
+                        Monday-Friday 8am-5pm EST
+                    </p>
+                </div>
+
+            </div>
+    </main>

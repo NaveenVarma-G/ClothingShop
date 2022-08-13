@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ClothingStore.DataAccess.ProductDetail>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<main>
+    <link rel="stylesheet" href="~/css/shopping_cart.css" asp-append-version="true" />
+        <div class="my-cart">
+            <h5 class="cart-top">My Cart</h5>
+            <p id='numberOfItems'></p>
+            <div class="container">
+                <div id='productList' class="products-list">
+                @if(Model.Count() == 0)
+                {
+                    <h1>No Items Added to The Cart</h1>
+                } else
+                {
+                    
+                    foreach(var item in Model)
+                    { string imgPath = "/images/"+ item.ProductId+ ".jpg";
+                        
+                        <div class='product'><div class='img-p'>
+                            <img src='@imgPath' alt='dress'></div><div class='p-des'><p>@item.ProductName<br>Product No. @item.ProductId<br>Price: $ @item.Price</p><br><p>Quantity: @item.Count</p></div></div>
+                    }
+
+                }
+            </div>
+                <div class="summary">
+                    <div class="cart-box">
+                        <h5>Order Summary</h5>
+                    @{
+                        double subtotal = 0;
+                        foreach(var item in Model)
+                        {
+                            subtotal = subtotal + (item.Price * item.Count);
+                        }
+                        double tax = subtotal * 0.13;
+                        double total = subtotal + tax;
+                        <p id='pricing'>                           
+                            Subtotal: @subtotal <br>
+                            Tax: @tax<br>
+                            
+                        </p>
+                        <h6 id='total'>Total: @total</h6>
+                    
+                    }
+                    </div>
+                    <input type="button" onclick='checkout()' value="Checkout">
+                </div>
+            </div>
+        </div>
+    </main>

@@ -1,0 +1,49 @@
+﻿@model ClothingStore.DataAccess.ProductDetail
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+    <main>
+        <link rel="stylesheet" href="~/css/product.css" asp-append-version="true" />
+        <div class="product-page">
+            <div class="img-product-box">
+                @{
+                    String imgPath = "/images/" + Model.ProductId + ".jpg";
+                     <img id="imgProduct" src="@imgPath" alt="dress">
+                }
+                </div>
+                <div class="product-box">
+                    <h2 id='product-name'>@Model.ProductName</h2>
+                    <p id='productNum'>
+                        Product No.  @Model.ProductId</p><p id='price'>Price: $@Model.Price
+                    </p>
+                    @{
+                        
+                    }
+                    <form asp-action="AddItem"  class="add-cart">
+                        <input type="hidden" asp-for="ProductId" />
+                       <br>
+                        <label for="quantity">Quantity:</label>
+                        <input asp-for="Count" class="form-control" id="quantity">
+                        
+                        <br>
+                        <div class="add-cart-button">
+                            <input type="submit" value="Add to Cart">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="product-description">
+                <h3>Product Description</h3>
+                <p id='productInfo'>
+                    @Model.ProductDescription
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    @section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
