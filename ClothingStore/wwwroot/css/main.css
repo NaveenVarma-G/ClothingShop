@@ -21,6 +21,11 @@
     --background-color: white;
 }
 
+#logButton{
+    background-color : #575050;
+    color: white;
+}
+
 .dark-mode{
     --primary-color: #262626;
     --secondry-color: white;

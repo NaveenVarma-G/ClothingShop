@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 string dbConnStr = builder.Configuration.GetConnectionString("ClothingShop");
 builder.Services.AddDbContext<ClothingShopContext>(options => options.UseSqlServer(dbConnStr));
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddSession();
 var app = builder.Build();
 
