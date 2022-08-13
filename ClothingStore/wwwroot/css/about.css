@@ -22,7 +22,10 @@ main {
 .grid-item img {
   width: 80%;
   border-radius: 10px;
+  position:relative;
+  top:60px;
 }
+
 
 /* ---- column flex ---- */
 /* .two-column {
@@ -119,6 +122,7 @@ h2 {
     grid-row-gap: 6%; */
   }
 
+  
 
   .two-column {
     margin-top: 0;
