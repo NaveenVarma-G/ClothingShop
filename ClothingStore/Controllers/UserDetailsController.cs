@@ -36,12 +36,34 @@ namespace ClothingStore.Controllers
 
             var userDetail = await _context.UserDetails
                 .FirstOrDefaultAsync(m => m.UserId == id);
+            
             if (userDetail == null)
             {
                 return NotFound();
             }
 
             return View(userDetail);
+        }
+
+        // GET: UserDetails/Details/5
+        public  async Task<IActionResult> Logged()
+        {
+
+            int id = int.Parse(HttpContext.Session.GetString("loginId"));
+            var userDetail = await _context.UserDetails
+                .FirstOrDefaultAsync(m => m.UserId == id);
+            Console.WriteLine("usertype===>" + userDetail.Type);
+            HttpContext.Session.SetString("loggedUserType", ""+userDetail.Type);
+            if(userDetail.Type == 0)
+            {
+                return RedirectToAction("Index","ProductDetails");
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            
         }
 
         // GET: UserDetails/Create

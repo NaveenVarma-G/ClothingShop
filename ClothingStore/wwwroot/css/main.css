@@ -26,6 +26,12 @@
     color: white;
 }
 
+#inventory {
+    background-color: #575050;
+    color: white;
+    margin-right : 30px;
+}
+
 .dark-mode{
     --primary-color: #262626;
     --secondry-color: white;

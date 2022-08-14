@@ -154,14 +154,44 @@ namespace ClothingStore.Controllers
             {
                 _context.UserLogins.Remove(userLogin);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool UserLoginExists(int id)
         {
-          return (_context.UserLogins?.Any(e => e.CredentialId == id)).GetValueOrDefault();
+            return (_context.UserLogins?.Any(e => e.CredentialId == id)).GetValueOrDefault();
+        }
+
+        public async Task<ActionResult> Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login([Bind("UserName,Password")] UserLogin userLogin)
+        {
+            Console.WriteLine("un====>" + userLogin.UserName);
+            Console.WriteLine("pass===>" + userLogin.Password);
+            var users = await _context.UserLogins.ToListAsync();
+            foreach (var user in users)
+            {
+                if(user.UserName == userLogin.UserName && user.Password == userLogin.Password)
+                {
+                    HttpContext.Session.SetString("loginId" , "" + user.UserId);
+
+                    return RedirectToAction("Logged","UserDetails");
+                }
+            }
+            return View();
+        }
+
+        public async Task<ActionResult> LogOut()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Home");
         }
     }
 }
