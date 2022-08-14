@@ -3,7 +3,8 @@
 @{
     ViewData["Title"] = "Index";
 }
-
+ @using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor Accessor
 <main>
     <link rel="stylesheet" href="~/css/shopping_cart.css" asp-append-version="true" />
         <div class="my-cart">
@@ -39,17 +40,27 @@
                         double total = subtotal + tax;
                         <p id='pricing'>                           
                             Subtotal: @subtotal <br>
-                            Tax: @tax<br>
+                            Tax: @tax.ToString("0.00")<br>
                             
                         </p>
-                        <h6 id='total'>Total: @total</h6>
-                    
+                        <h6 id='total'>Total: @total.ToString("0.00")</h6>
+
                     }
-                    </div>
-                    <form asp-action="Checkout">
-                    <input class="btn" type="submit"  value="Checkout">
-                    </form>
                 </div>
+                @if (Accessor.HttpContext.Session.GetString("loginId") != null)
+                {
+                    <form asp-action="Checkout">
+                        <input class="btn" type="submit"  value="Checkout">
+                    </form>
+                } else
+                {
+                    {
+                      
+                        <input class="btn btn-danger" type="submit" disabled value="Login to Checkout">
+                      
+                    }
+                }
+            </div>
             </div>
         </div>
     </main>

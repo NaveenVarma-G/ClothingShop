@@ -1,0 +1,72 @@
+﻿
+@model ClothingStore.DataAccess.UserLogin
+
+@{
+    ViewData["Title"] = "Index";
+}
+<main>
+    <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+  <div class="cotainer">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card">
+          <div id='loginTitle' class="card-header">Login</div>
+          <div class="card-body">
+            <form asp-action="Login">
+              <div class="row">
+                <label class="col-md-4 text-md-right">User Name</label>
+                <div class="col-md-6">
+                  <input 
+                    asp-for="UserName"
+                    
+                    
+                    
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <label for="password" class="col-md-4  text-md-right"
+                  >Password</label
+                >
+                <div class="col-md-6">
+                  <input
+                    type="password"
+                    id="loginPassword"
+                    asp-for="Password"
+                                     
+                  />
+                </div>
+              </div>
+              <!--  -->
+
+
+              <div class="col-md-6 offset-md-5">
+                <button id='login' class="btn btn-primary" type="submit">
+                  Login
+                </button>
+                <!-- <a href="#" class="btn btn-link">
+                    Forgot Your Password?
+                  </a> -->
+                  
+              </div>
+            </form>
+          </div>
+          <form asp-controller="UserDetails" asp-action="Create">
+          <button id='signup'
+      type="submit"
+      class="btn"
+      
+    >
+      SignUp
+    </button></form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+</main>
+
