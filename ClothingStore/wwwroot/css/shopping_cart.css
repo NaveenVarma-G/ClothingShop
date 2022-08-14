@@ -41,6 +41,8 @@
 
 .summary { 
     grid-area: summary; 
+    position:relative;
+    left:400px;
 }
 
 /* --------- shopping list ---------- */
@@ -106,7 +108,7 @@ input[type=button] {
 }
 input[type=button] {
     width: 100%;
-    max-width: 245px;
+    max-width: 203px;
     display: inline-block;
     margin-top: 1em;
     padding: 0.5em 1em;
