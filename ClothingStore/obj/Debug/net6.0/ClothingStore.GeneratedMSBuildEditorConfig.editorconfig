@@ -8,157 +8,161 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ClothingStore
 build_property.RootNamespace = ClothingStore
-build_property.ProjectDir = C:\Users\neeha\OneDrive\Desktop\Algonquin\Web Programming Language I\ClothingShop\ClothingStore\
+build_property.ProjectDir = D:\labs\ClothingShop\ClothingStore\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\neeha\OneDrive\Desktop\Algonquin\Web Programming Language I\ClothingShop\ClothingStore
+build_property.MSBuildProjectDirectory = D:\labs\ClothingShop\ClothingStore
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/Home/About.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/Home/Contact.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/Home/Index.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/Home/Privacy.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/OrderDetails/Create.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/OrderDetails/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/OrderDetails/Delete.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/OrderDetails/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/OrderDetails/Details.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/OrderDetails/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/OrderDetails/Edit.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/OrderDetails/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/OrderDetails/Index.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/OrderDetails/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductDetails/Cart.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductDetails/Catalogue.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Catalogue.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcQ2F0YWxvZ3VlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductDetails/Create.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductDetails/Delete.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductDetails/Details.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductDetails/Edit.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductDetails/Index.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductDetails/Product.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductDetails/Product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbHNcUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductInventories/Create.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductInventories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEludmVudG9yaWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductInventories/Delete.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductInventories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEludmVudG9yaWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductInventories/Details.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductInventories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEludmVudG9yaWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductInventories/Edit.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductInventories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEludmVudG9yaWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/ProductInventories/Index.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/ProductInventories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEludmVudG9yaWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/Shared/Error.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/UserDetails/Create.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/UserDetails/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRldGFpbHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/UserDetails/Delete.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/UserDetails/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRldGFpbHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/UserDetails/Details.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/UserDetails/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRldGFpbHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/UserDetails/Edit.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/UserDetails/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRldGFpbHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/UserDetails/Index.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/UserDetails/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRldGFpbHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/UserLogins/Create.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/UserLogins/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxvZ2luc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/UserLogins/Delete.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/UserLogins/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxvZ2luc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/UserLogins/Details.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/UserLogins/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxvZ2luc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/UserLogins/Edit.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/UserLogins/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxvZ2luc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/UserLogins/Index.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/UserLogins/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxvZ2luc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/_ViewImports.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/UserLogins/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxvZ2luc1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/labs/ClothingShop/ClothingStore/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/_ViewStart.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/neeha/OneDrive/Desktop/Algonquin/Web Programming Language I/ClothingShop/ClothingStore/Views/Shared/_Layout.cshtml]
+[D:/labs/ClothingShop/ClothingStore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2s65zvt27m

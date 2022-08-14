@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ClothingStore.DataAccess
 {
@@ -11,6 +13,8 @@ namespace ClothingStore.DataAccess
             UserLogins = new HashSet<UserLogin>();
         }
 
+
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int UserId { get; set; }
         public string FirstName { get; set; } = null!;
         public string LastName { get; set; } = null!;

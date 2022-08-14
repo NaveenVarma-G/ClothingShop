@@ -77,13 +77,23 @@ namespace ClothingStore.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("UserId,FirstName,LastName,Type,PhoneNumber,EmailId,Address,City,PinCode")] UserDetail userDetail)
+        public async Task<IActionResult> Create([Bind("FirstName,LastName,PhoneNumber,EmailId,Address,City,PinCode")] UserDetail userDetail)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(userDetail);
+                userDetail.Type = 1;
+
+                String sqlString = "Insert into UserDetails (firstname,lastname,type,phonenumber,emailid,address,city,pincode) OUTPUT INSERTED.userid  values ('" + userDetail.FirstName+"','" + userDetail.LastName + "',1,'" + userDetail.PhoneNumber + "','" + userDetail.EmailId + "','" + userDetail.Address + "','" + userDetail.City + "','" + userDetail.PinCode + "')";
+                _context.Database.ExecuteSqlRaw(sqlString);
+
+                //_context.Add(userDetail);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                //_context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT UserDetails off");
+                int? id = _context.UserDetails.Max(u => (int?)u.UserId);
+                Console.WriteLine("user sign up id" + id);
+                HttpContext.Session.SetString("signUpUserId", "" + id);
+
+                return RedirectToAction("Create","UserLogins");
             }
             return View(userDetail);
         }

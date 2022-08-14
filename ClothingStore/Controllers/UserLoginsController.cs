@@ -56,16 +56,18 @@ namespace ClothingStore.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CredentialId,UserId,UserName,Password")] UserLogin userLogin)
+        public async Task<IActionResult> Create([Bind("UserName,Password")] UserLogin userLogin)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(userLogin);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["UserId"] = new SelectList(_context.UserDetails, "UserId", "UserId", userLogin.UserId);
-            return View(userLogin);
+            Console.WriteLine("yyyyyyyy======>  " + HttpContext.Session.GetString("signUpUserId"));
+            int userId = int.Parse(HttpContext.Session.GetString("signUpUserId"));
+            Console.WriteLine("ttttt======>  " + userId);
+                //_context.Add(userLogin);
+                //await _context.SaveChangesAsync();
+                String sqlString = "Insert into UserLogin (UserId,UserName,Password) values ('" + userId + "','" + userLogin.UserName + "','" + userLogin.Password + "');";
+                _context.Database.ExecuteSqlRaw(sqlString);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index","Home");
+            
         }
 
         // GET: UserLogins/Edit/5
