@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ClothingStore.styles.css" asp-append-version="true" />
+    <!--<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ClothingStore.styles.css" asp-append-version="true" />-->
     <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/main.css" asp-append-version="true" />
 </head>
@@ -46,7 +46,7 @@
                     <a class="nav-link" asp-area="" asp-controller="ProductDetails" asp-action="Cart"><img src="~/images/shopping_cart.png" alt="shopping cart"></a>
                 </div>
                 <div class="left-box">
-                    @if(Accessor.HttpContext.Session.GetString("login") == null){
+                    @if(Accessor.HttpContext.Session.GetString("loginId") == null){
                         <form asp-controller="UserLogins" asp-action="Index">
                             <button type="submit"  class="btn" id="logButton">Login</button></form>
 
