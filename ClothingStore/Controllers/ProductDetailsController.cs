@@ -87,6 +87,16 @@ namespace ClothingStore.Controllers
             return View();
         }
 
+        public async Task<IActionResult> Checkout()
+        {
+            if (HttpContext.Session.GetString("loginId") == null)
+            {
+                
+            }
+            return RedirectToAction(nameof(Catalogue));
+        }
+
+
 
         // GET: ProductDetails/Details/5
         public async Task<IActionResult> Product(int? id)
