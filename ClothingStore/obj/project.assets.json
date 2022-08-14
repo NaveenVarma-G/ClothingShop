@@ -9665,19 +9665,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\varma\\.nuget\\packages\\": {}
+    "C:\\Users\\neeha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\labs\\ClothingShop\\ClothingStore\\ClothingStore.csproj",
+      "projectUniqueName": "C:\\Users\\neeha\\OneDrive\\Desktop\\Algonquin\\Web Programming Language I\\ClothingShop\\ClothingStore\\ClothingStore.csproj",
       "projectName": "ClothingStore",
-      "projectPath": "D:\\labs\\ClothingShop\\ClothingStore\\ClothingStore.csproj",
-      "packagesPath": "C:\\Users\\varma\\.nuget\\packages\\",
-      "outputPath": "D:\\labs\\ClothingShop\\ClothingStore\\obj\\",
+      "projectPath": "C:\\Users\\neeha\\OneDrive\\Desktop\\Algonquin\\Web Programming Language I\\ClothingShop\\ClothingStore\\ClothingStore.csproj",
+      "packagesPath": "C:\\Users\\neeha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\neeha\\OneDrive\\Desktop\\Algonquin\\Web Programming Language I\\ClothingShop\\ClothingStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\varma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\neeha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9685,7 +9685,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\labs\\asp\\LocalClassLib": {},
+        "C:\\Users\\neeha\\OneDrive\\Desktop\\Algonquin\\Web Programming Language I\\Lab2\\LocalClassLib": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
